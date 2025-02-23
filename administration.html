@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Définir l'encodage des caractères -->
+    <meta charset="UTF-8">
+    <!-- Assurer la compatibilité avec les appareils mobiles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titre de la page -->
+    <title>Administration - Trip Tip</title>
+    <!-- Lien vers la feuille de style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- En-tête de la page -->
+    <header>
+        <!-- Logo de l'agence de voyage -->
+        <!-- Barre de navigation -->
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="recherche.html">Recherche</a>
+                    <a href="presentation.html">Présentation</a>
+                    <a href="profil.html">Profil</a>
+                    <a href="index.html">Accueil</a>
+                    <a href="connexion.html">Connexion</a>
+                    <a href="inscription.html">Inscription</a>
+                    <a href="administration.html">Administration</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Contenu principal de la page -->
+    <main>
+        <!-- Section d'administration avec une liste d'utilisateurs -->
+        <section class="administration">
+            <!-- Titre de la section d'administration -->
+            <h1>Administration</h1>
+            <!-- Table pour afficher les utilisateurs inscrits -->
+            <table>
+                <thead>
+                    <tr>
+                        <th>Nom</th>
+                        <th>Email</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Exemple d'utilisateur 1 -->
+                    <tr>
+                        <td>Saaid Myriam</td>
+                        <td>myriam.saaid@gmail.com</td>
+                        <td>
+                            <!-- Bouton pour définir l'utilisateur comme VIP -->
+                            <button type="button">VIP</button>
+                            <!-- Bouton pour bannir l'utilisateur -->
+                            <button type="button">Bannir</button>
+                        </td>
+                    </tr>
+                    <!-- Exemple d'utilisateur 2 -->
+                    <tr>
+                        <td>Safrioui Mamoun</td>
+                        <td>safriouimamoun2005@gmail.com</td>
+                        <td>
+                            <!-- Bouton pour définir l'utilisateur comme VIP -->
+                            <button type="button">VIP</button>
+                            <!-- Bouton pour bannir l'utilisateur -->
+                            <button type="button">Bannir</button>
+                        </td>
+                    </tr>
+                    <!-- Ajouter d'autres utilisateurs si nécessaire -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

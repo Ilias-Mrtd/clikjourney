@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volubilis - Trip Tip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('volubilis1.jpg'); background-size:cover;">
+    <header>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="recherche.html">Recherche</a>
+                    <a href="presentation.html">Présentation</a>
+                    <a href="profil.html">Profil</a>
+                    <a href="index.html">Accueil</a>
+                    <a href="connexion.html">Connexion</a>
+                    <a href="inscription.html">Inscription</a>
+                    <a href="administration.html">Administration</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="description-page">
+            <h1>Vestige d'eternite: La cite perdue de volubilis</h1>
+            <p>Volubilis, trésor antique du Maroc, dévoile ses majestueuses ruines romaines au cœur d’un paysage époustouflant. Un voyage fascinant dans le temps. 🏛️✨</p>
+            <form action="/submit-reservation" method="post">
+                <label for="start-date">Date de début:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                
+                <label for="end-date">Date de fin:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                
+                <button type="submit">Réserver</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>

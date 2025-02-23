@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saidia - Trip Tip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('plage2.jpeg'); background-size: cover;">
+    <header>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="recherche.html">Recherche</a>
+                    <a href="presentation.html">Présentation</a>
+                    <a href="profil.html">Profil</a>
+                    <a href="index.html">Accueil</a>
+                    <a href="connexion.html">Connexion</a>
+                    <a href="inscription.html">Inscription</a>
+                    <a href="administration.html">Administration</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="description-page">
+            <h1>Les plages paradisiaques de Saidia</h1>
+            <p>Les plages paradisiaques de Saïdia, perle de la Méditerranée, dévoilent sable doré, eau cristalline et horizon infini. Une invitation au rêve et à la détente. ☀️🏝️✨</p>
+            <form action="/submit-reservation" method="post">
+                <label for="start-date">Date de début:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                
+                <label for="end-date">Date de fin:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                
+                <button type="submit">Réserver</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html> 

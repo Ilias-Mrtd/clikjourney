@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil - Trip Tip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-profil">
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <!-- Liens de navigation -->
+                    <a href="recherche.html">Recherche</a>
+                    <a href="presentation.html">Présentation</a>
+                    <a href="index.html">Accueil</a>
+                    <a href="connexion.html">Connexion</a>
+                    <a href="inscription.html">Inscription</a>
+                    <a href="administration.html">Administration</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Section de profil avec une bulle pour le numéro de réservation -->
+        <section class="profil-section">
+            <div class="profil-bubble">
+                <h1>Entrez votre numéro de réservation</h1>
+                <form action="modification.html" method="get">
+                    <!-- Champ de texte pour le numéro de réservation -->
+                    <label for="reservation-number">Numéro de réservation:</label>
+                    <input type="text" id="reservation-number" name="reservation-number" required>
+                    <!-- Bouton de soumission pour vérifier le numéro de réservation -->
+                    <button type="submit">Vérifier</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Trip Tip. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

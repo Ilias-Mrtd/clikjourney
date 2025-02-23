@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <!-- Définir l'encodage des caractères -->
+    <meta charset="UTF-8">
+    <!-- Assurer la compatibilité avec les appareils mobiles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titre de la page -->
+    <title>Trip Tip</title>
+    <!-- Lien vers la feuille de style CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Image de fond -->
+    <div class="background-image"></div>
+    <!-- En-tête de la page -->
+    <header>
+        <!-- Onglet déroulant pour la navigation -->
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <!-- Liens de navigation -->
+                    <a href="presentation.html">Présentation</a>
+                    <a href="profil.html">Profil</a>
+                    <a href="administration.html">Administration</a>
+                </div>
+            </div>
+            <div>
+                <a href="connexion.html" id="login-button">
+                    <img src="connexion.png" alt="Icône utilisateur"> 
+                    <span>Se connecter</span>
+                </a>
+                <!-- Bouton d'inscription -->
+                <a href="inscription.html" id="signup-button">
+                    <img src="connexionlogo.png" alt="Icône S'inscrire">
+                    <span>S'inscrire</span>
+                </a>
+                </div>
+        </nav>
+    </header>
+    <!-- Contenu principal de la page -->
+    <main>
+        <!-- Section héroïque avec une image et un texte d'accueil -->
+        <section class="hero">
+            <div class="bubble">
+                <h1>🚀 Bienvenue chez Trip-Tip 🚀</h1>
+                <!-- Description de l'agence -->
+                <p>💫 Votre aventure commence ici. Choisissez parmi nos circuits pré-configurés et personnalisez vos options 💫</p>
+
+                <!-- Bouton cliquable redirigeant vers la page recherche -->
+                 <a href="recherche.html" class="cta-button">Commencer votre aventure</a>
+            </div>
+        </section>
+
+<section class="spacer">
+    <p> 👇 Notre TOP selections 👇</p>
+</section>
+        <section class="info-section">
+            <div class="info-window">
+                <h2>🌳Les majestueuse cascade🌳d'Ouzoud </h2>
+                <p>Et si je vous disez que le paradis etais sur terre, ✨me croiriez vous ? ✨ </p>
+            </div>
+            <div class="info-window">
+                <h2> 🌊Les plages paradisiaques 🌊de Saïdia </h2>
+                <p>Laissez vous bercez par les eaux transparente et 🏝️ le sable blanc 🏝️ </p>
+            </div>
+        </section>
+
+<!-- Bouton pour afficher/cacher la section FAQ -->
+        <input type="checkbox" id="faq-toggle" class="faq-toggle">
+        <label for="faq-toggle" class="faq-toggle-btn">  👉 FAQ 👈</label>
+
+        <!-- Section FAQ -->
+<section class="faq-section" id="faq">
+    <div class="faq-item">
+        <h3>Question 1: Comment réserver un voyage?</h3>
+        <p>Pour réserver un voyage, utilisez notre outil de recherche pour trouver des options de circuits, puis suivez les instructions pour personnaliser et finaliser votre réservation.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Question 2: Quels sont les modes de paiement acceptés?</h3>
+        <p>Nous acceptons les cartes de crédit et de débit,les paiements par PayPal ainsi que la cryptomonnaies. (Les paiements en nature sont totallements interdit).</p>
+    </div>
+    <div class="faq-item">
+        <h3>Question 3: Puis-je annuler ou modifier ma réservation?</h3>
+        <p>Oui, vous pouvez annuler ou modifier votre réservation en contactant notre service client ou en utilisant la section "Profil" pour gérer vos réservations.</p>
+    </div>
+</section>
+    </main>
+    <!-- Pied de page -->
+    <footer>
+        <!-- Mentions de droits d'auteur -->
+        <p>&copy; 2025 Trip Tip. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

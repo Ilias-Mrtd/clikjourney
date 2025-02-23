@@ -1,0 +1,962 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style global du corps de la page */
+body {
+    font-family: Comic, sans-serif; /* Police d'écriture */
+    margin: 0; /* Marge nulle */
+    padding: 0; /* Remplissage nul */
+    background-color: white; /* Couleur de fond */
+}
+
+/* Style de l'en-tête */
+header {
+    display: flex; /* Utilisez Flexbox pour centrer */
+    flex-direction: column; /* Alignez les éléments en colonne */
+    align-items: center; /* Centre horizontalement */
+    color: white;
+}
+
+nav ul {
+    list-style: none; /* Suppression des puces */
+    display: flex; /* Affichage en flexbox */
+    justify-content: center; /* Centrage des éléments */
+    padding: 0; /* Suppression du padding */
+    margin: 10px 0; /* Marge verticale */
+}
+
+nav ul li {
+    margin: 0 15px; /* Marge horizontale */
+}
+
+nav ul li a {
+    color: black; /* Couleur du texte */
+    text-decoration: none; /* Suppression de la décoration du texte */
+    font-weight: bold; /* Texte en gras */
+    transition: color 0.3s; /* Transition pour la couleur */
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Couleur au survol */
+}
+
+.dropdown {
+    position: relative; /* Position relative pour le dropdown */
+    display: inline-block; /* Affichage en bloc en ligne */
+    margin-top: 10px; /* Marge supérieure */
+    margin-left: -860px; 
+}
+
+.dropdown {
+    position: absolute; /* Position relative pour le dropdown */
+    display: flex;
+    justify-content: center;
+    display: inline-flex; /* Affichage en bloc en ligne */
+    margin-top: 0px; /* Marge supérieure */ /* Centrer horizontalement */
+}
+
+.dropbtn {
+    background-color: #013220; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    padding: px; /* Espacement intérieur */
+    font-size: 27.415px; /* Taille de la police */
+    border: none; /* Suppression de la bordure */
+    cursor: pointer; /* Curseur de la souris */
+    border-radius: 0px; /* Coins arrondis */
+    margin-bottom: 0px; /* Ajouter un léger espace en dessous du bouton menu */
+}
+
+.dropdown-content {
+    display: none; /* Masquer par défaut */
+    position: absolute; /* Position absolue */
+    background-color: none; /* Couleur de fond */
+    min-width: 160px; /* Largeur minimale */
+    box-shadow: 0px 8px 5px 0px rgba(0,0,0,0); /* Ombre */
+    z-index: 1; /* Z-index pour l'affichage au-dessus */
+    border-radius: 10px; /* Coins arrondis */
+    white-space: nowrap; /* Empêcher le retour à la ligne */
+    animation: slideIn 0.3s; /* Animation de transition */
+    left: 0; /* Aligner le contenu à gauche */
+}
+
+.dropdown-content a {
+    color: white; /* Couleur du texte */
+    padding: 10px 10px; /* Espacement intérieur */
+    text-decoration: none; /* Suppression de la décoration du texte */
+    display: inline-block; /* Affichage en bloc en ligne */
+    text-align: center; /* Alignement du texte au centre */
+    border-radius: 10px; /* Coins arrondis */
+    margin: 20px; /* Marge pour espacer les bulles */
+    background-color: #06402B; /* Couleur de fond noire */
+    transition: background-color 0.3s, transform 0.3s; /* Animation de transition */
+}
+
+.dropdown-content a:hover {
+    background-color: black; /* Couleur de fond au survol */
+    transform: scale(1.1); /* Agrandir légèrement au survol */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block; /* Afficher lorsque survolé */
+}
+
+.dropdown:hover .dropbtn {
+    display: none; /* Masquer le bouton menu lorsque survolé */
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-70%); /* Commence en dehors de l'écran à gauche */
+        opacity: 0; /* Opacité initiale */
+    }
+    100% {
+        transform: translateX(0); /* Position finale */
+        opacity: 1; /* Opacité finale */
+    }
+}
+
+.hero {
+    text-align: center; /* Alignement du texte */
+    background-color: #ccc; /* Couleur de fond */
+    height: 100vh;
+    background-image: url("fond1.jpeg");
+    position: revert-layer;
+    background-position: center;
+    z-index: -1;
+    background-size: cover;
+    display: flex;
+    justify-content: center; /* Centrer horizontalement */
+    align-items: center; /* Centrer verticalement */
+}
+
+.spacer {
+    padding: 10px 0; /* Espacement intérieur en haut et en bas */
+    text-align: center; /* Alignement du texte au centre */
+    background-color: #013220; /* Couleur de fond */
+    font-size: 20px; /* Taille de la police */
+    color: white; /* Couleur du texte */
+}
+
+.hero .bubble {
+    color: white; /* Couleur du texte noir */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 10px; /* Coins arrondis */
+    text-align: center; /* Alignement du texte au centre */
+    background-color: rgba(1, 50, 32, 0.5);
+}
+
+.hero h1 {
+    margin: 0; /* Marge nulle */
+    margin-bottom: 10px; /* Marge inférieure */
+}
+
+.hero p {
+    margin: 0; /* Marge nulle */
+    margin-bottom: 10px; /* Marge inférieure */
+}
+
+.hero .cta-button {
+    background-color: #333; /* Couleur de fond du bouton */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement intérieur */
+    text-decoration: none; /* Suppression de la décoration du texte */
+    border-radius: 5px; /* Coins arrondis */
+    display: inline-block; /* Affichage en bloc en ligne */
+    margin-top: 10px; /* Marge supérieure */
+    transition: background-color 0.3s, transform 0.3s; /* Animation de transition */
+}
+
+.hero .cta-button:hover {
+    background-color: #000566; /* Couleur de fond au survol */
+    transform: scale(1.1); /* Agrandir légèrement au survol */
+}
+
+.info-window {
+    position: relative; /* Position relative pour le contenu */
+}
+
+.info-window::before {
+    content: ""; /* Contenu vide pour l'élément pseudo */
+    position: absolute; /* Position absolue pour couvrir toute la fenêtre */
+    top: 0; /* Positionné en haut */
+    left: 0; /* Positionné à gauche */
+    right: 0; /* Positionné à droite */
+    bottom: 0; /* Positionné en bas */
+    background-color: rgba(0, 0, 0, 0.3); /* Couleur de fond avec transparence */
+    z-index: 1; /* Position de l'élément pseudo en dessous du texte */
+    border-radius: 10px; /* Coins arrondis pour correspondre à la fenêtre */
+}
+
+.info-window h2, .info-window p {
+    text-align: center;
+    position: center; /* Position relative pour le texte */
+    z-index: 2; /* Position du texte au-dessus de l'élément pseudo */
+    color: white; /* Couleur du texte */
+    padding: 0; /* Espacement intérieur */
+    background-color: rgba(0, 0, 0, 0.2); /* Couleur de fond du texte avec transparence */
+    border-radius: 10px; /* Coins arrondis pour le fond de texte */
+    margin-bottom: 30px;
+}
+
+.info-window {
+    background-image: url('cascade.jpeg'); /* Chemin vers l'image de fond pour la fenêtre 1 */
+    background-size: cover; /* Couvrir toute la section */
+    background-position: center; /* Centrer l'image */
+}
+
+.info-window:nth-child(2) {
+    background-image: url('plage.jpeg'); /* Chemin vers l'image de fond pour la fenêtre 2 */
+    background-size: cover; /* Couvrir toute la section */
+    background-position: center; /* Centrer l'image */
+}
+
+.info-section {
+    display: flex; /* Utilisation de Flexbox pour l'agencement */
+    justify-content: space-evenly; /* Espacement égal autour des fenêtres */
+    padding: 10px; /* Espacement intérieur */
+  background-image: url("sahara1.jpg");
+  background-size: cover;
+}
+
+.info-window {
+    background-color: black; /* Couleur de fond */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Ombre de la fenêtre */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 200px; /* Espacement intérieur */
+    width: 45%; /* Largeur de chaque fenêtre */
+    transition: box-shadow 0.3s, transform 0.3s; /* Animation de transition */
+}
+
+.info-window:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Ombre au survol */
+    transform: translateY(-5px); /* Déplacement vers le haut au survol */
+}
+
+.faq-section {
+    display: none; /* Masquer la section FAQ par défaut */
+    padding: 20px; /* Espacement intérieur */
+  background-color: white;
+  background-size: cover ;
+}
+
+.faq-toggle:checked + .faq-toggle-btn + .faq-section {
+    display: block; /* Afficher la section FAQ lorsque le bouton est activé */
+}
+
+.faq-item {
+    margin-bottom: 20px; /* Marge inférieure */
+}
+
+.faq-item h3 {
+    color: grey; /* Couleur du texte */
+    margin-bottom: 2px; /* Marge inférieure */
+    text-align: center;
+}
+
+.faq-item p {
+    color: black; /* Couleur du texte */
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.faq-toggle-btn {
+    display: inline-block;
+    margin: px 0;
+    padding: 25px 10px;
+    background-color: #013220;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0px;
+    transition: background-color 0.3s, transform 0.3s;
+    display: flex; 
+    justify-content: center;
+    text-align: center;
+}
+
+.faq-toggle-btn:hover {
+    background-color: black;
+    transform: scale(1.1);
+}
+
+.faq-toggle {
+    display: none; /* Masquer le checkbox */
+}
+
+footer {
+   background-color: black; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    text-align: center; /* Alignement du texte */
+    position: relative; /* Position fixe */
+    bottom: 0; /* Placement en bas de la page */
+    width: 100%; /* Largeur du pied de page */
+}
+
+.profil {
+    padding: 2em; /* Espacement intérieur */
+}
+
+.administration {
+    padding: 2em; /* Espacement intérieur */
+}
+
+.administration table {
+    width: 100%; /* Largeur de la table */
+    border-collapse: collapse; /* Suppression de l'espace entre les cellules */
+}
+
+.administration th {
+    background-color: #333; /* Couleur de fond des en-têtes */
+    color: #fff; /* Couleur du texte des en-têtes */
+    padding: 1em; /* Espacement intérieur */
+    text-align: left; /* Alignement du texte */
+}
+
+.administration td {
+    border: 1px solid #ccc; /* Bordure des cellules */
+    padding: 1em; /* Espacement intérieur */
+}
+
+button {
+    background-color: #333; /* Couleur de fond des boutons */
+    color: #fff; /* Couleur du texte des boutons */
+    border: none; /* Suppression de la bordure */
+    padding: 0.5em 1em; /* Espacement intérieur */
+    cursor: pointer; /* Curseur de la souris */
+}
+
+button:hover {
+    background-color: #555; /* Couleur de fond au survol */
+}
+
+.search-section {
+    display: flex; /* Utilisation de Flexbox pour l'agencement */
+    flex-wrap: wrap; /* Permettre le retour à la ligne */
+    justify-content: space-between; /* Espacement égal entre les éléments */
+    padding: 5px; /* Espacement intérieur */
+    background-color: white; /* Couleur de fond */
+    margin-top:60px;
+}
+
+.search-item {
+    position: relative; /* Position relative pour le contenu */
+    background-size: cover; /* Couvrir toute la bulle */
+    background-position: center; /* Centrer l'image de fond */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.200); /* Ombre de la fenêtre */
+    border-radius: 10px; /* Coins arrondis */
+    padding: 10px; /* Espacement intérieur */
+    width: calc(50% - 10px); /* Largeur de chaque fenêtre */
+    margin-bottom: 20px; /* Marge inférieure pour espacement entre les lignes */
+    transition: box-shadow 0.3s, transform 0.3s; /* Animation de transition */
+    text-align: center;
+    height: 300px; /* Hauteur fixe pour les bulles */
+    display: flex; /* Utilisation de Flexbox */
+    justify-content: center; /* Centrage horizontal */
+    align-items: center; /* Centrage vertical */
+    flex-direction: column; /* Aligner les enfants en colonne */
+    margin-top: 5px;
+}
+.search-item:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5); /* Ombre au survol */
+    transform: translateY(-15px); /* Déplacement vers le haut au survol */
+}
+
+.search-item:hover h2, .search-item:hover p {
+    opacity: 1; /* Rendre le texte visible au survol */
+    transform: scale(1.2);
+    transition: transform 1s ;
+}
+
+.search-item h2, .search-item p {
+    text-align: center;
+    position: relative; /* Position relative pour le texte */
+    z-index: 2; /* Position du texte au-dessus de l'élément pseudo */
+    color: white; /* Couleur du texte */
+    padding: 10px; /* Espacement intérieur */
+    background-color: rgba(0, 0, 0, 0.2); /* Couleur de fond du texte avec transparence */
+    border-radius: 10px; /* Coins arrondis */
+    opacity: 0; /* Rendre le texte invisible par défaut */
+    transition: opacity 0.5s; /* Transition pour l'apparition du texte */
+    font-size: 30px; /* Taille de la police */
+}
+
+
+
+#login-button {
+    position: fixed; /* Fixe l'icône en permanence */
+    top: 25px; /* Position en haut */
+    right: 5px; /* Position à droite */
+    background-color: #25926a; /* Fond vert foncé */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 50px; /* Arrondi */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#login-button:hover {
+    background-color: #025932; /* Changement de couleur au survol */
+    transform: scale(1.05); /* Petit effet zoom */
+}
+
+#login-button img {
+    src: ;
+    width: auto; /* Permet de garder le ratio d'origine */
+    height: 24px; /* Fixe la hauteur */
+    max-width: 16px; /* Réduit la largeur sans affecter la hauteur */
+    margin-right: 8px; /* Espacement avec le texte */
+}
+
+
+
+#login-button {
+    position: absolute; /* Fixe l'icône en permanence */
+    top: 15px; /* Position en haut */
+    right:8px; /* Position à droite */
+    background-color: #013220; /* Fond vert foncé */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px; /* Arrondi */
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+#login-button:hover {
+    background-color: black; /* Changement de couleur au survol */
+    transform: scale(1.05); /* Petit effet zoom */
+}
+
+#login-button img {
+    width: 24px; /* Permet de garder le ratio d'origine */
+    height: 24px; /* Fixe la hauteur */
+    max-width: 30px; /* Réduit la largeur sans affecter la hauteur */
+    margin-right: 8px; /* Espacement avec le texte */
+}
+#signup-button {
+    background-color: #013220; /* Couleur de fond */
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    text-decoration: none; /* Supprime le soulignement */
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Effet au survol */
+#signup-button:hover {
+    background-color: black;
+    transform: scale(1.05);
+}
+
+/* Style de l'icône */
+#signup-button img {
+    width: 24px; /* Taille de l'icône */
+    height: 24px;
+    margin-right: 8px; /* Espacement entre l'icône et le texte */
+}
+
+/* Positionnement flexible */
+#signup-button {
+    position: absolute; /* Distance depuis le haut */
+    right: 170px; /* Distance depuis la gauche */
+    top: 15px;
+}
+
+header.header-connexion {
+    background-color: #013220; /* Couleur de fond spécifique pour la page Connexion */
+}
+
+.connexion-section {
+    display: flex; /* Utilisation de Flexbox pour l'agencement */
+    flex-direction: column; /* Aligner les éléments en colonne */
+    align-items: center; /* Centrer horizontalement */
+    justify-content: center; /* Centrer verticalement */
+    height: 100vh; /* Hauteur de la section */
+    background-color: white; /* Couleur de fond */
+}
+
+.connexion-bubble {
+    background-color: rgba(1, 50, 32, 0.8); /* Couleur de fond avec transparence */
+    color: white; /* Couleur du texte */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 10px; /* Coins arrondis */
+    text-align: center; /* Alignement du texte au centre */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre de la bulle */
+    margin-bottom: 20px; /* Marge inférieure */
+    width: 80%; /* Largeur de la section */
+    max-width: 500px; /* Largeur maximale de la section */
+}
+
+.connexion-section form {
+    display: flex; /* Utilisation de Flexbox pour l'agencement */
+    flex-direction: column; /* Aligner les éléments en colonne */
+    align-items: center; /* Centrer horizontalement */
+}
+
+.connexion-section label {
+    margin: 10px 0; /* Marge verticale */
+}
+
+.connexion-section input {
+    padding: 10px; /* Espacement intérieur */
+    border-radius: 5px; /* Coins arrondis */
+    border: none; /* Suppression de la bordure */
+    margin-bottom: 10px; /* Marge inférieure */
+    width: 100%; /* Largeur complète */
+    max-width: 300px; /* Largeur maximale */
+}
+
+.connexion-section button {
+    background-color: #FFD700; /* Couleur de fond du bouton */
+    color: black; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement intérieur */
+    text-decoration: none; /* Suppression de la décoration du texte */
+    border-radius: 5px; /* Coins arrondis */
+    display: inline-block; /* Affichage en bloc en ligne */
+    margin-top: 10px; /* Marge supérieure */
+    transition: background-color 0.3s, transform 0.3s; /* Animation de transition */
+    border: none; /* Suppression de la bordure */
+    cursor: pointer; /* Curseur de la souris */
+}
+
+.connexion-section button:hover {
+    background-color: #FFC700; /* Couleur de fond au survol */
+    transform: scale(1.1); /* Agrandir légèrement au survol */
+}
+
+/* Style du formulaire */
+.inscription {
+    width: 400px;
+    scale: 1.1;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(1, 50, 32, 0.8);
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    position: absolute;
+    top: 250px;
+    left: 650px;
+    color: white;
+}
+
+/* Style des labels */
+.inscription label {
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Style des champs de saisie */
+.inscription input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Effet au focus sur les champs */
+.inscription input:focus {
+    border-color: #013220;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(1, 50, 32, 0.5);
+}
+
+/* Style du bouton */
+.inscription button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #FFD700;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Effet au survol du bouton */
+.inscription button:hover {
+    background-color: #025932;
+    transform: scale(1.05);
+}
+header.header-profil {
+    background-color: #013220; /* Couleur de fond spécifique pour la page Profil */
+}
+
+.profil-section, .modification-section {
+    display: flex; /* Utilisation de Flexbox pour l'agencement */
+    flex-direction: column; /* Aligner les éléments en colonne */
+    align-items: center; /* Centrer horizontalement */
+    justify-content: center; /* Centrer verticalement */
+    height: 100vh; /* Hauteur de la section */
+    background-color: white; /* Couleur de fond */
+}
+
+.profil-bubble, .modification-bubble {
+    background-color: rgba(1, 50, 32, 0.8); /* Couleur de fond avec transparence */
+    color: white; /* Couleur du texte */
+    padding: 20px; /* Espacement intérieur */
+    border-radius: 10px; /* Coins arrondis */
+    text-align: center; /* Alignement du texte au centre */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre de la bulle */
+    margin-bottom: 20px; /* Marge inférieure */
+    width: 80%; /* Largeur de la section */
+    max-width: 500px; /* Largeur maximale de la section */
+}
+
+.profil-section form, .modification-bubble form {
+    display: flex; /* Utilisation de Flexbox pour l'agencement */
+    flex-direction: column; /* Aligner les éléments en colonne */
+    align-items: center; /* Centrer horizontalement */
+}
+
+.profil-section label, .modification-bubble label {
+    margin: 10px 0; /* Marge verticale */
+}
+
+.profil-section input, .modification-bubble input, .modification-bubble select {
+    padding: 10px; /* Espacement intérieur */
+    border-radius: 5px; /* Coins arrondis */
+    border: none; /* Suppression de la bordure */
+    margin-bottom: 10px; /* Marge inférieure */
+    width: 100%; /* Largeur complète */
+    max-width: 300px; /* Largeur maximale */
+}
+
+.profil-section button, .modification-bubble button {
+    background-color: #FFD700; /* Couleur de fond du bouton */
+    color: black; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement intérieur */
+    text-decoration: none; /* Suppression de la décoration du texte */
+    border-radius: 5px; /* Coins arrondis */
+    display: inline-block; /* Affichage en bloc en ligne */
+    margin-top: 10px; /* Marge supérieure */
+    transition: background-color 0.3s, transform 0.3s; /* Animation de transition */
+    border: none; /* Suppression de la bordure */
+    cursor: pointer; /* Curseur de la souris */
+}
+
+.profil-section button:hover, .modification-bubble button:hover {
+    background-color: #FFC700; /* Couleur de fond au survol */
+    transform: scale(1.1); /* Agrandir légèrement au survol */
+}
+/* Styles pour les bulles de recherche */
+.search-item a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+/* Styles pour les pages de description */
+.description-page {
+    padding: 20px;
+    background-color: rgba(1, 50, 32, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto;
+    color: white;
+    text-align: center;
+}
+
+.description-page h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.description-page p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.description-page form {
+    display: flex;
+    flex-direction: column;
+}
+
+.description-page label {
+    margin: 10px 0 5px;
+}
+
+.description-page input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.description-page button {
+    display: block;
+    width: calc(100% - 40px);
+    margin: 20px auto 0;
+    padding: 10px;
+    background-color: #FFD700;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.description-page button:hover {
+    background-color: #FFC700;
+    transform: scale(1.05);
+}
+
+.profil, .administration {
+    padding: 2em; /* Espacement intérieur */
+    background-color: rgba(1, 50, 32, 0.8); /* Couleur de fond */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre */
+    max-width: 800px; /* Largeur maximale */
+    margin: 20px auto; /* Centrage et marge verticale */
+}
+
+.administration table {
+    width: 100%; /* Largeur de la table */
+    border-collapse: collapse; /* Suppression de l'espace entre les cellules */
+    text-align: center;
+
+}
+
+.administration h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.administration th {
+    background-color: #FFD700; /* Couleur de fond des en-têtes */
+    color: white; /* Couleur du texte des en-têtes */
+    padding: 1em; /* Espacement intérieur */
+    text-align: center; /* Alignement du texte */
+}
+
+.administration td {
+    border: 1px solid #FFD700; /* Bordure des cellules */
+    padding: 1em; /* Espacement intérieur */
+    color: white;
+}
+
+button {
+    background-color: #013220; /* Couleur de fond des boutons */
+    color: #fff; /* Couleur du texte des boutons */
+    border: none; /* Suppression de la bordure */
+    padding: 0.5em 1em; /* Espacement intérieur */
+    cursor: pointer; /* Curseur de la souris */
+}
+
+button:hover {
+    background-color: #555; /* Couleur de fond au survol */
+}
+
+
+
+
+/* Style global du corps de la page */
+body {
+    font-family: Comic, sans-serif; /* Police d'écriture */
+    margin: 0; /* Marge nulle */
+    padding: 0; /* Remplissage nul */
+    background-color: white; /* Couleur de fond */
+    overflow-y: scroll; /* Permettre le défilement vertical */
+}
+
+/* Styles spécifiques pour la page détail */
+.detail-page {
+    display: flex; /* Utilisation de Flexbox */
+    flex-direction: column; /* Aligner les éléments en colonne */
+    align-items: center; /* Centre horizontalement */
+    justify-content: flex-start; /* Alignement au début */
+    min-height: 100vh; /* Hauteur minimale de la fenêtre */
+}
+
+.detail-page header {
+    width: 100%; /* Largeur complète de l'en-tête */
+    position: fixed; /* Position fixe pour rester en haut de la page */
+    top: 0; /* En haut de la page */
+    z-index: 10; /* Au-dessus des autres éléments */
+}
+
+.detail-page main {
+    width: 100%; /* Largeur complète */
+    flex: 1; /* Prendre tout l'espace disponible */
+    display: flex; /* Utilisation de Flexbox */
+    flex-direction: column; /* Aligner les éléments en colonne */
+    align-items: center; /* Centre horizontalement */
+    justify-content: flex-start; /* Alignement au début */
+    padding-top: 60px; /* Ajout d'un espacement supérieur pour le contenu sous l'en-tête */
+}
+
+.detail-page footer {
+    width: 100%; /* Largeur complète du pied de page */
+    text-align: center; /* Centrer le texte */
+    padding: 10px 0; /* Espacement intérieur */
+    background-color: #f1f1f1; /* Couleur de fond */
+}
+
+/* Styles pour l'image partielle de l'écran */
+.detail-page .partial-screen-image {
+    width: 100%; /* Largeur complète */
+    height: 50vh; /* Hauteur réduite */
+    display: flex; /* Utilisation de Flexbox */
+    align-items: center; /* Centre verticalement */
+    justify-content: center; /* Centre horizontalement */
+    position: relative; /* Position relative */
+}
+
+.detail-page .partial-screen-image img {
+    width: 100%; /* Largeur complète */
+    height: 100%; /* Hauteur complète */
+    object-fit: cover; /* Recouvrir tout en maintenant le rapport d'aspect */
+}
+
+.detail-page .image-title {
+    position: absolute; /* Position absolue */
+    top: 50%; /* Centré verticalement */
+    left: 50%; /* Centré horizontalement */
+    transform: translate(-50%, -50%); /* Ajustement du centrage */
+    color: white; /* Couleur du texte */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Ombre du texte */
+    text-align: center; /* Centrer le texte */
+}
+
+.detail-page .image-title h1 {
+    font-size: 4em; /* Taille de la police */
+    margin: 0; /* Marge nulle */
+}
+
+/* Styles pour les sections d'information */
+.info-sections {
+    width: 100%; /* Largeur complète */
+    background-color: #f9f9f9; /* Couleur de fond */
+    padding-bottom: 20px; /* Ajout d'un espacement inférieur pour le contenu */
+}
+
+.tabs {
+    display: flex; /* Utilisation de Flexbox */
+    justify-content: space-around; /* Espacement égal entre les éléments */
+    background-color: #004d00; /* Couleur de fond des onglets */
+}
+
+.tablink {
+    flex: 1; /* Prendre toute la largeur disponible */
+    background-color: #004d00; /* Couleur de fond */
+    color: white; /* Couleur du texte */
+    border: none; /* Suppression de la bordure */
+    padding: 15px; /* Espacement intérieur */
+    cursor: pointer; /* Curseur de la souris */
+    transition: background-color 0.3s, transform 0.3s; /* Transitions pour la couleur de fond et la mise à l'échelle */
+    text-align: center; /* Centrer le texte */
+    font-size: 1.2em; /* Taille de la police */
+}
+
+.tablink:hover {
+    background-color: #FFD700; /* Couleur de fond au survol */
+    transform: scale(1.05); /* Effet de mise à l'échelle au survol */
+}
+
+.tablink.active {
+    background-color: #FFD700; /* Couleur de fond active */
+}
+
+.tabcontent {
+    display: none; /* Masquer par défaut */
+    padding: 20px; /* Espacement intérieur */
+    border: 1px solid #ccc; /* Bordure */
+    border-radius: 5px; /* Coins arrondis */
+    background-color: white; /* Couleur de fond */
+    width: 100%; /* Largeur complète */
+    box-sizing: border-box; /* Inclure les bordures et le padding dans la largeur */
+}
+
+/* Styles pour le titre centré */
+.centered-title {
+    text-align: center; /* Centrer le texte */
+    font-size: 2em; /* Augmenter la taille de la police */
+    font-weight: bold; /* Mettre en gras */
+    margin-bottom: 20px; /* Ajouter une marge inférieure */
+}
+
+/* Styles pour la description avec images */
+.description-with-images {
+    display: flex; /* Utilisation de Flexbox */
+    align-items: center; /* Centre verticalement */
+    justify-content: space-between; /* Espacement entre les éléments */
+}
+
+.side-image {
+    height: 700px; /* Hauteur maximale des images latérales */
+    width: 400px; /* Maintenir le rapport d'aspect en ajustant la largeur automatiquement */
+    object-fit: cover; /* Maintenir le rapport d'aspect */
+    margin: 0 20px; /* Marge à gauche et à droite */
+}
+
+.description-text {
+    flex: 1; /* Permet au texte de prendre tout l'espace disponible */
+    width: auto; /* Ajuster la largeur automatiquement */
+}
+
+/* Styles pour le texte de la description */
+.tabcontent p {
+    font-size: 1.4em; /* Taille de la police */
+    line-height: 1.6; /* Hauteur de ligne */
+    margin-bottom: 15px; /* Marge inférieure */
+}
+
+.tabcontent ul {
+    list-style-type: none; /* Pas de puces */
+    padding: 0; /* Pas de padding */
+}
+
+.tabcontent ul li {
+    background: url('checkmark.png') no-repeat left center; /* Image de fond pour la puce */
+    background-size: 20px; /* Taille de l'image */
+    padding-left: 30px; /* Espacement à gauche */
+    margin-bottom: 10px; /* Marge inférieure */
+    font-size: 1.1em; /* Taille de la police */
+}
+
+.hebergement-grid {
+    display: flex; /* Utilisation de Flexbox */
+    flex-wrap: wrap; /* Permettre le retour à la ligne */
+    justify-content: space-between; /* Espacement entre les éléments */
+    gap: 20px; /* Espacement entre les éléments */
+}
+
+.hebergement-item {
+    flex: 1 1 calc(25% - 20px); /* Prendre une largeur de 25% moins l'espacement */
+    box-sizing: border-box; /* Inclure les bordures et le padding dans la largeur */
+    text-align: center; /* Centrer le texte */
+}
+
+.hebergement-item img {
+    width: 100%; /* Largeur complète de l'image */
+    height: auto; /* Ajuster la hauteur automatiquement */
+    object-fit: cover; /* Maintenir le rapport d'aspect */
+    border-radius: 5px; /* Coins arrondis */
+}
+
+.hebergement-item p {
+    margin-top: 10px; /* Marge supérieure pour le texte */
+    font-size: 1em; /* Taille de la police */
+}

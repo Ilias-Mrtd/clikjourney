@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modification - Trip Tip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-profil">
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <!-- Liens de navigation -->
+                    <a href="recherche.html">Recherche</a>
+                    <a href="presentation.html">Présentation</a>
+                    <a href="profil.html">Profil</a>
+                    <a href="index.html">Accueil</a>
+                    <a href="connexion.html">Connexion</a>
+                    <a href="inscription.html">Inscription</a>
+                    <a href="administration.html">Administration</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- Section de modification de la réservation -->
+        <section class="modification-section">
+            <div class="modification-bubble">
+                <h2>Détails de votre voyage</h2>
+                <p>Votre réservation pour <strong>L'incontournable océan de sable</strong> est confirmée. Si vous souhaitez la modifier, merci de remplir le formulaire ci-dessous.</p>
+                <!-- Formulaire pour modifier le voyage -->
+                <form id="modifyTripForm">
+                    <!-- Champ de texte pour la date d'arrivée -->
+                    <label for="arrival-date">Date d'arrivée:</label>
+                    <input type="date" id="arrival-date" name="arrival-date" required>
+                    
+                    <!-- Champ de texte pour la date de départ -->
+                    <label for="departure-date">Date de départ:</label>
+                    <input type="date" id="departure-date" name="departure-date" required>
+                    
+                    <!-- Sélection pour les lieux de réservation -->
+                    <label for="destination">Modifier la destination:</label>
+                    <select id="destination" name="destination" required>
+                        <option value="cascade">Les Majestueuses Cascade d'ouzoud</option>
+                        <option value="plage">Les plages paradisiaques de Saidia</option>
+                        <option value="casa">Tous les chemins mènent à Casablanca</option>
+                        <option value="fes">La ville aux 1000 et une histoires</option>
+                        <option value="ski">Quand cimes enneigées et soleil flirtent</option>
+                        <option value="chefchaouen">La ville reflet du ciel</option>
+                        <option value="volubilis">Vestige d'éternité : La cité perdue de Volubilis</option>
+                    </select>
+                    
+                    <!-- Bouton de soumission pour modifier le voyage -->
+                    <button type="submit">Modifier</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2025 Trip Tip. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>

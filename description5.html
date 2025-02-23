@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahara - Trip Tip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-image: url('sahara.jpeg'); background-size: cover;">
+    <header>
+        <nav>
+            <div class="dropdown">
+                <button class="dropbtn">Menu</button>
+                <div class="dropdown-content">
+                    <a href="recherche.html">Recherche</a>
+                    <a href="presentation.html">Présentation</a>
+                    <a href="profil.html">Profil</a>
+                    <a href="index.html">Accueil</a>
+                    <a href="connexion.html">Connexion</a>
+                    <a href="inscription.html">Inscription</a>
+                    <a href="administration.html">Administration</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="description-page">
+            <h1>L'incontournable océan de sable</h1>
+            <p>Le Sahara, mer infinie de dunes dorées, offre silence, grandeur et magie sous un ciel étoilé. Une aventure inoubliable au cœur de l’immensité. 🏜️✨🌌</p>
+            <form action="/submit-reservation" method="post">
+                <label for="start-date">Date de début:</label>
+                <input type="date" id="start-date" name="start-date" required>
+                
+                <label for="end-date">Date de fin:</label>
+                <input type="date" id="end-date" name="end-date" required>
+                
+                <button type="submit">Réserver</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
