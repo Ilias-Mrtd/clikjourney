@@ -1,0 +1,131 @@
+[
+    {
+        "login": "admin1",
+        "mot_de_passe": "admin123",
+        "role": "admin",
+        "nom": "Admin Uno2",
+        "date_inscription": "2024-01-01",
+        "derniere_connexion": "2025-05-19",
+        "voyages": [],
+        "email": "",
+        "pseudo": "",
+        "naissance": "",
+        "adresse": ""
+    },
+    {
+        "login": "admin2",
+        "mot_de_passe": "admin456",
+        "role": "admin",
+        "nom": "Admin Deux",
+        "date_inscription": "2024-01-02",
+        "derniere_connexion": "2024-05-13",
+        "voyages": []
+    },
+    {
+        "login": "user1",
+        "mot_de_passe": "user123",
+        "role": "utilisateur",
+        "nom": "Alice",
+        "date_inscription": "2024-03-01",
+        "derniere_connexion": "2024-05-10",
+        "voyages": []
+    },
+    {
+        "login": "user2",
+        "mot_de_passe": "user456",
+        "role": "utilisateur",
+        "nom": "Bob",
+        "date_inscription": "2024-03-05",
+        "derniere_connexion": "2024-05-11",
+        "voyages": []
+    },
+    {
+        "login": "user3",
+        "mot_de_passe": "user789",
+        "role": "utilisateur",
+        "nom": "Charlie",
+        "date_inscription": "2024-03-10",
+        "derniere_connexion": "2024-05-12",
+        "voyages": []
+    },
+    {
+        "login": "safmam3",
+        "mot_de_passe": "12345",
+        "role": "utilisateur",
+        "nom": "dew",
+        "date_inscription": "2025-05-14",
+        "derniere_connexion": "2025-05-14",
+        "voyages": []
+    },
+    {
+        "login": "mamoun",
+        "mot_de_passe": "   12345",
+        "role": "utilisateur",
+        "nom": "mamoun",
+        "date_inscription": "2025-05-14",
+        "derniere_connexion": "2025-05-14",
+        "voyages": []
+    },
+    {
+        "login": "bb",
+        "mot_de_passe": "bb",
+        "role": "utilisateur",
+        "nom": "jhb",
+        "date_inscription": "2025-05-16",
+        "derniere_connexion": "2025-05-16",
+        "voyages": []
+    },
+    {
+        "login": "a",
+        "mot_de_passe": "123456",
+        "role": "utilisateur",
+        "nom": "b",
+        "email": "a@gmail.com",
+        "date_inscription": "2025-05-17",
+        "derniere_connexion": "2025-05-17",
+        "voyages": []
+    },
+    {
+        "login": "u",
+        "mot_de_passe": "123456",
+        "role": "utilisateur",
+        "nom": "u",
+        "email": "u@gmail.com",
+        "date_inscription": "2025-05-17",
+        "derniere_connexion": "2025-05-18",
+        "voyages": []
+    },
+    {
+        "login": "j",
+        "mot_de_passe": "123456",
+        "role": "utilisateur",
+        "nom": "k",
+        "email": "k@gmail.com",
+        "date_inscription": "2025-05-17",
+        "derniere_connexion": "2025-05-17",
+        "voyages": []
+    },
+    {
+        "login": "as",
+        "mot_de_passe": "123456",
+        "role": "utilisateur",
+        "nom": "ilias",
+        "email": "iliasa@gmail.com",
+        "date_inscription": "2025-05-19",
+        "derniere_connexion": "2025-05-19",
+        "voyages": []
+    },
+    {
+        "login": "iliasis",
+        "mot_de_passe": "ilias123",
+        "role": "utilisateur",
+        "nom": "ilias mourtada",
+        "pseudo": "iliasou",
+        "naissance": "2005-10-02",
+        "adresse": "25 rue des ta mere",
+        "email": "mourtadailias6@gmail.com",
+        "date_inscription": "2025-05-19",
+        "derniere_connexion": "2025-05-19",
+        "voyages": []
+    }
+]

@@ -1,0 +1,819 @@
+[
+  {
+  "id": 101,
+  "titre": "Les majestueuses cascades d'Ouzoud",
+  "image": "101.jpg",
+  "date_debut": "2025-07-01",
+  "date_fin": "2025-07-07",
+  "prix": 850,
+  "etapes": [
+    {
+      "titre": "Jour 1-5: Cascades d'Ouzoud",
+      "description": "Découverte des sentiers ombragés menant au pied des chutes et observation des singes en liberté dans leur habitat naturel.",
+      "hebergements": [
+        {              
+          "nom": "Riad Cascades d’Ouzoud",
+          "prix": 60,
+          "image": "h1-1.jpeg"
+        },
+        {
+          "nom": "Hôtel Chellal d’Ouzoud",
+          "prix": 80,
+          "image": "h2-1.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Randonnée autour des cascades",
+          "description": "Balade guidée autour des chutes d’eau.",
+          "image": "a1-1.jpeg"
+        }
+      ]
+    },
+    {
+      "titre": "Jour 5-7: Balade en barque",
+      "description": "Embarquement sur une barque artisanale pour s’approcher des cascades et profiter d’un moment rafraîchissant en pleine nature.",
+      "hebergements": [
+        {
+          "nom": "Borj des Cascades",
+          "prix": 100,
+          "image": "h3-1.jpeg"
+        },
+        {
+          "nom": "La Kasbah d’Ouzoud",
+          "prix": 85,
+          "image": "h4-1.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Balade en barque traditionnelle au pied des chutes",
+          "description": "Petit tour en barque pour s’approcher des cascades et admirer leur puissance au plus près, dans une ambiance fraîche et apaisante.",
+          "image": "a2-1.jpeg"
+        }
+      ]
+    }
+  ]
+},
+  {
+    "id": 102,
+    "titre": "Les plages paradisiaques de Saïdia",
+    "image": "102.jpg",
+    "date_debut": "2025-07-02",
+  "date_fin": "2025-07-07",
+  "prix": 600,
+  "etapes": [
+    {
+      "titre": "Jour 1-3: Plage de Saïdia",
+      "description": "Longue de plusieurs kilomètres, cette plage de sable doré bordée par la Méditerranée est l’un des joyaux balnéaires du Maroc.",
+      "hebergements": [
+        {
+          "nom": "Be Live Collection Saïdia",
+          "prix": 60,
+          "image": "h1-2.jpeg"
+        },
+        {
+          "nom": "Radisson Blu Resort Saïdia Beach",
+          "prix": 80,
+          "image": "h2-2.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Détente et baignade sur la plage principale",
+          "description": "Profitez de la vaste plage de sable fin pour vous détendre, nager dans les eaux claires de la Méditerranée et admirer les couchers de soleil spectaculaires.",
+          "image": "a1-2.jpeg"
+        }
+      ]
+    },
+    {
+      "titre": "Jour 3-7: Marina de Saïdia",
+      "description": "Située à l’extrémité de la plage, la Marina est un port moderne et animé, parfait pour les départs en excursion et les soirées en bord de quai.",
+      "hebergements": [
+        {
+          "nom": "Iberostar Waves Saïdia",
+          "prix": 100,
+          "image": "h3-2.jpeg"
+        },
+        {
+          "nom": "Oasis Saïdia Palace & Blue Pearl",
+          "prix": 85,
+          "image": "h4-2.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Balade en bateau depuis la Marina",
+          "description": "Embarquez pour une excursion en bateau afin de découvrir la côte méditerranéenne, avec possibilité de pratiquer la pêche ou simplement admirer le paysage marin.",
+          "image": "a2-2.jpeg"
+        }
+      ]
+    }
+  ]  
+  },
+  {
+    "id": 103,
+    "titre": "Tous les chemins mènent à Casablanca",
+    "image": "103.jpg",
+    "date_debut": "2025-07-03",
+  "date_fin": "2025-07-07",
+  "prix": 650,
+  "etapes": [
+    {
+      "titre": "Jour 1-2: Mosquée Hassan II",
+      "description": "Dominant l'océan Atlantique, cette mosquée est l'une des plus grandes au monde, avec un minaret culminant à 210 mètres.",
+      "hebergements": [
+        {
+          "nom": "Melliber Appart Hotel",
+          "prix": 60,
+          "image": "h1-3.jpeg"
+        },
+        {
+          "nom": "Barceló Anfa Casablanca",
+          "prix": 80,
+          "image": "h2-3.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Visite guidée de la mosquée Hassan II",
+          "description": "Explorez l'architecture impressionnante de cette mosquée, avec ses détails en marbre sculpté, ses plafonds en bois de cèdre et son sol partiellement en verre offrant une vue sur la mer.",
+          "image": "a1-3.jpeg"
+        }
+      ]
+    },
+    {
+      "titre": "Jour 2-4: Ancienne Médina de Casablanca",
+      "description": "Cœur historique de la ville, la médina est un labyrinthe de ruelles animées, de souks colorés et de bâtiments traditionnels.",
+      "hebergements": [
+        {
+          "nom": "Hyatt Regency Casablanca",
+          "prix": 100,
+          "image": "h3-3.jpeg"
+        },
+        {
+          "nom": "Hôtel Les Saisons",
+          "prix": 85,
+          "image": "h4-3.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Balade dans les souks de la médina",
+          "description": "Imprégnez-vous de l'ambiance locale en flânant dans les marchés, où vous trouverez artisanat, épices et textiles typiques du Maroc.",
+          "image": "a2-3.jpeg"
+        }
+      ]
+    }
+  ]  
+  },
+  {
+    "id": 104,
+    "titre": "La ville aux mille et une histoires - Fès",
+    "image": "104.jpg",
+    "date_debut": "2025-07-04",
+  "date_fin": "2025-07-07",
+  "prix": 700,
+  "etapes": [
+    {
+      "titre": "Jour 1-2: Médina de Fès el-Bali",
+      "description": "Cœur historique de la ville, cette médina est un labyrinthe de ruelles étroites, de souks animés et de monuments historiques, inscrite au patrimoine mondial de l'UNESCO.",
+      "hebergements": [
+        {
+          "nom": "Riad Fès – Relais & Châteaux",
+          "prix": 60,
+          "image": "h1-4.jpeg"
+        },
+        {
+          "nom": "Palais Faraj Suites & Spa",
+          "prix": 80,
+          "image": "h2-4.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Exploration des souks traditionnels",
+          "description": "Plongez dans l'ambiance authentique de Fès en flânant dans les souks, où l'artisanat local, les épices et les tissus colorés éveilleront vos sens.",
+          "image": "a1-4.jpeg"
+        }
+      ]
+    },
+    {
+      "titre": "Jour 2-3: Médersa Bou Inania",
+      "description": "Chef-d'œuvre de l'architecture mérinide du XIVe siècle, cette école coranique est l'une des rares à être ouverte aux non-musulmans.",
+      "hebergements": [
+        {
+          "nom": "Riad Laaroussa",
+          "prix": 100,
+          "image": "h3-4.jpeg"
+        },
+        {
+          "nom": "Riad El Amine Fès",
+          "prix": 85,
+          "image": "h4-4.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Visite architecturale de la médersa",
+          "description": "Admirez les détails exquis des stucs sculptés, des zelliges colorés et des boiseries finement travaillées de ce monument historique.",
+          "image": "a2-4.jpeg"
+        }
+      ]
+    }
+  ]  
+  },
+  {
+    "id": 105,
+    "titre": "L’incontournable océan de sable - Sahara",
+    "image": "105.jpg",
+    "date_debut": "2025-07-04",
+  "date_fin": "2025-07-07",
+  "prix": 900,
+  "etapes": [
+    {
+      "titre": "Jour 1-2: Merzouga – Portail du désert du Sahara",
+      "description": "Situé aux abords des majestueuses dunes de l'Erg Chebbi, Merzouga est le point de départ idéal pour une immersion dans le désert marocain.",
+      "hebergements": [
+        {
+          "nom": "Merzouga Luxury Desert Camp",
+          "prix": 60,
+          "image": "h1-5.jpeg"
+        },
+        {
+          "nom": "Tiziri Camp",
+          "prix": 80,
+          "image": "h2-5.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Balade à dos de chameau au coucher du soleil",
+          "description": "Partez pour une excursion à dos de chameau à travers les dunes dorées de l'Erg Chebbi, et admirez le spectacle inoubliable du soleil se couchant sur le désert.",
+          "image": "a1-5.jpeg"
+        }
+      ]
+    },
+    {
+      "titre": "Jour 2-3: Erg Chebbi – Dunes majestueuses du Sahara",
+      "description": "L'Erg Chebbi est une mer de dunes impressionnantes, certaines atteignant jusqu'à 150 mètres de hauteur, offrant un terrain de jeu idéal pour les amateurs de sensations fortes.",
+      "hebergements": [
+        {
+          "nom": "Erg Chebbi Luxury Desert Camp",
+          "prix": 100,
+          "image": "h3-5.jpeg"
+        },
+        {
+          "nom": "Auberge Café du Sud – Camp Royal",
+          "prix": 85,
+          "image": "h4-5.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Sandboarding sur les dunes",
+          "description": "Glissez sur les pentes des dunes de sable en pratiquant le sandboard, une activité ludique et exaltante qui ravira les amateurs de glisse.",
+          "image": "a2-5.jpeg"
+        }
+      ]
+    }
+  ]  
+  },
+  {
+    "id": 106,
+    "titre": "Quand cimes enneigées et soleil flirtent - Oukaimeden",
+    "image": "106.jpg",
+    "date_debut": "2025-07-05",
+  "date_fin": "2025-07-07",
+  "prix": 510,
+  "etapes": [
+    {
+      "titre": "Jour 1:  Station de ski d’Oukaimeden",
+      "description": "Nichée à 2 600 mètres d'altitude dans le Haut Atlas, cette station est la plus haute d'Afrique, offrant des paysages enneigés spectaculaires et des installations pour les amateurs de sports d'hiver.",
+      "hebergements": [
+        {
+          "nom": "Le Courchevel",
+          "prix": 60,
+          "image": "h1-6.jpeg"
+        },
+        {
+          "nom": "Chalet Ermitage Oukaimeden",
+          "prix": 80,
+          "image": "h2-6.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Journée de ski sur les pistes d'Oukaimeden",
+          "description": "Dévalez les pentes enneigées de la station, adaptée aussi bien aux débutants qu'aux skieurs expérimentés, et profitez d'une vue imprenable sur les montagnes environnantes.",
+          "image": "a1-6.jpeg"
+        }
+      ]
+    }
+  ]  
+  },
+  {
+    "id": 107,
+    "titre": "La ville reflet du ciel - Chefchaouen",
+    "image": "107.jpg",
+    "date_debut": "2025-07-01",
+  "date_fin": "2025-07-07",
+  "prix": 500,
+  "etapes": [
+    {
+      "titre": "Jour 1-5:  La Médina de Chefchaouen",
+      "description": "Un labyrinthe de ruelles aux murs bleus, offrant une atmosphère paisible et une architecture andalouse unique.",
+      "hebergements": [
+        {
+          "nom": "Casa Perleta",
+          "prix": 60,
+          "image": "h1-7.jpeg"
+        },
+        {
+          "nom": "Riad Gharnata",
+          "prix": 80,
+          "image": "h2-7.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Flânerie dans les ruelles bleues",
+          "description": "Perdez-vous dans les ruelles pittoresques de la médina, admirez les portes colorées et capturez des clichés mémorables de cette ville surnommée la Perle Bleue",
+          "image": "a1-7.jpeg"
+        }
+      ]
+    },
+    {
+      "titre": "Jour 5-7: Mosquée Espagnole (Bouzafer)",
+      "description": "Située sur une colline surplombant Chefchaouen, cette mosquée offre une vue imprenable sur la ville et les montagnes environnantes.",
+      "hebergements": [
+        {
+          "nom": "Dar Jasmine",
+          "prix": 100,
+          "image": "h3-7.jpeg"
+        },
+        {
+          "nom": "Hotel Alkhalifa",
+          "prix": 85,
+          "image": "h4-7.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Randonnée au coucher du soleil jusqu'à la mosquée espagnole",
+          "description": "Empruntez le sentier menant à la mosquée pour assister à un coucher de soleil spectaculaire, illuminant les teintes bleues de la ville.",
+          "image": "a2-7.jpeg"
+        }
+      ]
+    }
+  ]  
+  },
+  {
+    "id": 108,
+    "titre": "Vestige d’éternité : la cité perdue de Volubilis",
+    "image": "108.jpg",
+    "date_debut": "2025-07-01",
+  "date_fin": "2025-07-07",
+  "prix": 490,
+  "etapes": [
+    {
+      "titre": "Jour 1-5:  Site archéologique de Volubilis",
+      "description": "Ancienne cité romaine classée au patrimoine mondial de l'UNESCO, Volubilis offre des vestiges impressionnants témoignant de son riche passé historique.",
+      "hebergements": [
+        {
+          "nom": "Dar Zerhoune",
+          "prix": 60,
+          "image": "h1-8.jpeg"
+        },
+        {
+          "nom": "Ibis Meknes",
+          "prix": 80,
+          "image": "h2-8.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Visite guidée des ruines romaines",
+          "description": "Perdez-vous dans les ruelles pittoresques de la médina, admirez les portes colorées et capturez des clichés mémorables de cette ville surnommée la Perle Bleue",
+          "image": "a1-8.jpeg"
+        }
+      ]
+    },
+    {
+      "titre": "Jour 5-7: Moulay Idriss Zerhoun",
+      "description": "Ville sainte perchée sur une colline, Moulay Idriss est un lieu de pèlerinage important et offre une atmosphère paisible.",
+      "hebergements": [
+        {
+          "nom": "Dar Ines Moulay Idriss",
+          "prix": 100,
+          "image": "h3-8.jpeg"
+        },
+        {
+          "nom": "Diyar Timnay",
+          "prix": 85,
+          "image": "h4-8.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Balade dans les ruelles de la médina",
+          "description": "Parcourez les ruelles étroites de la médina, découvrez l'architecture traditionnelle et imprégnez-vous de l'ambiance spirituelle de la ville.",
+          "image": "a2-8.jpeg"
+        }
+      ]
+    }
+  ]  
+  },
+  {
+    "id": 109,
+    "titre": "Essaouira – La perle de l’Atlantiques",
+    "image": "109.jpg",
+    "date_debut": "2025-07-01",
+  "date_fin": "2025-07-07",
+  "prix": 800,
+  "etapes": [
+    {
+      "titre": "Jour 1-5:  Plage d’Essaouira",
+      "description": "S'étendant le long de l'océan Atlantique, la plage d'Essaouira est réputée pour ses vents constants, en faisant un spot prisé des amateurs de sports nautiques.",
+      "hebergements": [
+        {
+          "nom": "Hôtel Le Médina Essaouira Thalassa sea & spa – MGallery",
+          "prix": 60,
+          "image": "h1-9.jpeg"
+        },
+        {
+          "nom": "Villa Quieta",
+          "prix": 80,
+          "image": "h2-9.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Initiation au kitesurf ou à la planche à voile",
+          "description": "Profitez des conditions idéales pour vous initier au kitesurf ou à la planche à voile, encadré par des écoles locales proposant des cours adaptés à tous les niveaux. ",
+          "image": "a1-9.jpeg"
+        }
+      ]
+    },
+    {
+      "titre": "Jour 5-7: Médina d’Essaouira",
+      "description": "Classée au patrimoine mondial de l'UNESCO, la médina d'Essaouira séduit par ses ruelles étroites, ses maisons blanchies à la chaux et ses portes bleues caractéristiques.",
+      "hebergements": [
+        {
+          "nom": "Villa Maroc",
+          "prix": 100,
+          "image": "h3-9.jpeg"
+        },
+        {
+          "nom": "Riad Chbanate",
+          "prix": 85,
+          "image": "h4-9.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Exploration des souks et des ateliers d'artisans",
+          "description": "Parcourez les souks animés pour découvrir l'artisanat local, notamment les objets en bois de thuya, les bijoux berbères et les textiles colorés.",
+          "image": "a2-9.jpeg"
+        }
+      ]
+    }
+  ]  
+  },
+  {
+    "id": 110,
+    "titre": "Marrakech – L’ensorcelante ville rouge",
+    "image": "110.jpg",
+    "date_debut": "2025-07-01",
+  "date_fin": "2025-07-07",
+  "prix": 450,
+  "etapes": [
+    {
+      "titre": "Jour 1-5: Place Jemaa el-Fna ",
+      "description": "Cœur vibrant de Marrakech, cette place emblématique est animée jour et nuit par des marchands, artistes de rue et conteurs, offrant une immersion dans la culture marocaine.",
+      "hebergements": [
+        {
+          "nom": "Riad Palais des Princesses & Spa",
+          "prix": 60,
+          "image": "h1-10.jpeg"
+        },
+        {
+          "nom": "Riad Jemaa El Fna & Spa",
+          "prix": 80,
+          "image": "h2-10.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Immersion dans l'ambiance nocturne de Jemaa el-Fna",
+          "description": "À la tombée de la nuit, la place s'anime avec des spectacles de rue, des stands de nourriture traditionnelle et une atmosphère envoûtante unique au monde. ",
+          "image": "a1-10.jpeg"
+        }
+      ]
+    },
+    {
+      "titre": "Jour 5-7: Jardin Majorelle",
+      "description": "Oasis de tranquillité au cœur de la ville, ce jardin botanique est célèbre pour ses couleurs vives, sa collection de plantes exotiques et son histoire liée à Yves Saint Laurent..",
+      "hebergements": [
+        {
+          "nom": "Riad Kniza",
+          "prix": 100,
+          "image": "h3-10.jpeg"
+        },
+        {
+          "nom": "La Maison Arabe",
+          "prix": 85,
+          "image": "h4-10.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Visite du Jardin Majorelle et du musée berbère",
+          "description": "Explorez les allées ombragées du jardin, admirez les bassins et les plantes rares, puis découvrez l'art et la culture berbères au musée adjacent.",
+          "image": "a2-10.jpeg"
+        }
+      ]
+    }
+  ]  
+  },
+  {
+    "id": 111,
+    "titre": "Tétouan – Entre tradition andalouse et Méditerranée",
+    "image": "111.jpg",
+    "date_debut": "2025-07-01",
+  "date_fin": "2025-07-07",
+  "prix": 590,
+  "etapes": [
+    {
+      "titre": "Jour 1-5: Médina de Tétouan ",
+      "description": "Classée au patrimoine mondial de l'UNESCO, la médina de Tétouan est un exemple remarquable de ville historique, reflétant l'influence andalouse dans son architecture et son artisanat.",
+      "hebergements": [
+        {
+          "nom": "Hotel Blanco Riad",
+          "prix": 60,
+          "image": "h1-11.jpeg"
+        },
+        {
+          "nom": "Riad El Reducto",
+          "prix": 80,
+          "image": "h2-11.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Exploration des souks et des ateliers d'artisans",
+          "description": "Parcourez les ruelles étroites de la médina pour découvrir les souks animés, où vous pourrez admirer et acheter des produits artisanaux tels que la broderie, la marqueterie et les mosaïques de zelliges. ",
+          "image": "a1-11.jpeg"
+        }
+      ]
+    },
+    {
+      "titre": "Jour 5-7: Plage de Martil",
+      "description": "À quelques kilomètres de Tétouan, la plage de Martil est une destination prisée pour ses eaux calmes et son ambiance détendue en bord de Méditerranée.",
+      "hebergements": [
+        {
+          "nom": "Hôtel Suite Martil",
+          "prix": 100,
+          "image": "h3-11.jpeg"
+        },
+        {
+          "nom": "Palais Oumensour",
+          "prix": 85,
+          "image": "h4-11.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Détente et baignade sur la plage de Martil",
+          "description": "Profitez d'une journée de détente sur le sable fin, baignez-vous dans les eaux claires et explorez les environs pour des activités nautiques telles que le kayak ou la plongée.",
+          "image": "a2-11.jpeg"
+        }
+      ]
+    }
+  ]  
+  },
+  {
+    "id": 112,
+    "titre": "Taroudant – La petite Marrakech",
+    "image": "112.jpg",
+    "date_debut": "2025-07-01",
+  "date_fin": "2025-07-07",
+  "prix": 850,
+  "etapes": [
+    {
+      "titre": "Jour 1-5: Les Remparts de Taroudant et la Médina ",
+      "description": "Surnommée la petite Marrakech, Taroudant est entourée de remparts en pisé datant du XVIe siècle, offrant un cadre authentique et préservé.",
+      "hebergements": [
+        {
+          "nom": "Riad Tafilag",
+          "prix": 60,
+          "image": "h1-12.jpeg"
+        },
+        {
+          "nom": "Palais Oumensour",
+          "prix": 80,
+          "image": "h2-12.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Balade dans la médina et découverte des souks",
+          "description": "Parcourez les ruelles animées de la médina, explorez les souks regorgeant d'artisanat local, de tapis berbères et de produits du terroir.",
+          "image": "a1-12.jpeg"
+        }
+      ]
+    },
+    {
+      "titre": "Jour 5-7: Palmeraie de Tiout",
+      "description": "À une trentaine de kilomètres de Taroudant, la palmeraie de Tiout est une oasis verdoyante offrant un contraste saisissant avec les paysages arides environnants.",
+      "hebergements": [
+        {
+          "nom": "Dar Zitoune",
+          "prix": 100,
+          "image": "h3-12.jpeg"
+        },
+        {
+          "nom": "Riad Jnane Ines",
+          "prix": 85,
+          "image": "h4-12.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Excursion en dromadaire dans la palmeraie",
+          "description": "Partez pour une balade à dos de dromadaire à travers les palmiers et découvrez la vie rurale berbère dans un cadre naturel apaisant.",
+          "image": "a2-12.jpeg"
+        }
+      ]
+    }
+  ]  
+  },
+  {
+    "id": 113,
+    "titre": "Ifrane – La Suisse marocaine",
+    "image": "113.jpg",
+    "date_debut": "2025-07-01",
+  "date_fin": "2025-07-07",
+  "prix": 670,
+  "etapes": [
+    {
+      "titre": "Jour 1-5:  Parc national d'Ifrane ",
+      "description": "S'étendant sur plus de 500 km², ce parc abrite la plus grande forêt de cèdres du monde et une biodiversité remarquable, offrant un cadre idéal pour les amoureux de la nature.",
+      "hebergements": [
+        {
+          "nom": "Michlifen Resort & Golf",
+          "prix": 60,
+          "image": "h1-13.jpeg"
+        },
+        {
+          "nom": "Zephyr Ifrane",
+          "prix": 80,
+          "image": "h2-13.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": " Randonnée dans le parc national d'Ifrane",
+          "description": "Parcourez les sentiers du parc pour découvrir des paysages variés, observer des espèces endémiques comme le macaque berbère et profiter de l'air pur du Moyen Atlas.",
+          "image": "a1-13.jpeg"
+        }
+      ]
+    },
+    {
+      "titre": "Jour 5-7: Lac Daït Aoua",
+      "description": "Situé à environ 15 km au nord d'Ifrane, ce lac pittoresque est entouré de prairies et de forêts, offrant un lieu de détente prisé des habitants et des visiteurs.",
+      "hebergements": [
+        {
+          "nom": "Farah Inn Ifrane",
+          "prix": 100,
+          "image": "h3-13.jpeg"
+        },
+        {
+          "nom": "Hotel Perce Neige",
+          "prix": 85,
+          "image": "h4-13.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Pique-nique et promenade autour du lac Daït Aoua",
+          "description": "Profitez d'une journée paisible en famille ou entre amis en vous promenant autour du lac, en observant les oiseaux et en dégustant un pique-nique au bord de l'eau.",
+          "image": "a2-13.jpeg"
+        }
+      ]
+    }
+  ]  
+  },
+  {
+    "id": 114,
+    "titre": "Dakhla – Entre désert et océan",
+    "image": "114.jpg",
+    "date_debut": "2025-07-01",
+  "date_fin": "2025-07-07",
+  "prix": 870,
+  "etapes": [
+    {
+      "titre": "Jour 1-5:  Lagune de Dakhla ",
+      "description": "Nichée entre océan Atlantique et désert du Sahara, la lagune de Dakhla est un paradis pour les amateurs de sports nautiques, offrant des eaux calmes et des vents constants toute l'année.",
+      "hebergements": [
+        {
+          "nom": "Dakhla Club Hotel & Spa",
+          "prix": 60,
+          "image": "h1-14.jpeg"
+        },
+        {
+          "nom": "Westpoint Dakhla",
+          "prix": 80,
+          "image": "h2-14.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": " Initiation au kitesurf sur la lagune",
+          "description": "Profitez des conditions idéales pour vous initier au kitesurf, encadré par des écoles locales proposant des cours adaptés à tous les niveaux.",
+          "image": "a1-14.jpeg"
+        }
+      ]
+    },
+    {
+      "titre": "Jour 5-7: Plage de Porto Rico",
+      "description": "Située à environ 60 km au sud de Dakhla, la plage de Porto Rico est réputée pour son sable blanc immaculé et ses eaux turquoise, offrant un cadre idyllique pour la détente.",
+      "hebergements": [
+        {
+          "nom": "La Tour d'Eole",
+          "prix": 100,
+          "image": "h3-14.jpeg"
+        },
+        {
+          "nom": "Caravan by Habitas Dakhla",
+          "prix": 85,
+          "image": "h4-14.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Journée de détente et baignade à la plage de Porto Rico",
+          "description": "Profitez d'une journée paisible sur cette plage isolée, idéale pour la baignade, le farniente et la contemplation des paysages marins.",
+          "image": "a2-14.jpeg"
+        }
+      ]
+    }
+  ]  
+  },
+  {
+    "id": 115,
+    "titre": "Zagora – Aux portes du désert",
+    "image": "115.jpg",
+    "date_debut": "2025-07-01",
+  "date_fin": "2025-07-07",
+  "prix": 800,
+  "etapes": [
+    {
+      "titre": "Jour 1-5:  Zagora – Aux portes du désert ",
+      "description": "Situées à environ 25 km au sud-est de Zagora, les dunes de Tinfou offrent un avant-goût du Sahara avec leurs sables dorés et leurs paysages désertiques.",
+      "hebergements": [
+        {
+          "nom": "Riad Lamane",
+          "prix": 60,
+          "image": "h1-15.jpeg"
+        },
+        {
+          "nom": "Kasbah Sirocco",
+          "prix": 80,
+          "image": "h2-15.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": " Balade à dos de dromadaire au coucher du soleil",
+          "description": "Partez pour une excursion à dos de dromadaire à travers les dunes de Tinfou, et admirez le coucher du soleil qui teinte le désert de nuances dorées, offrant une expérience inoubliable.",
+          "image": "a1-15.jpeg"
+        }
+      ]
+    },
+    {
+      "titre": "Jour 5-7: Vallée du Drâa",
+      "description": "S'étendant de Ouarzazate à M'Hamid, la vallée du Drâa est une oasis verdoyante parsemée de palmeraies, de kasbahs et de villages traditionnels, offrant un contraste saisissant avec le désert environnant.",
+      "hebergements": [
+        {
+          "nom": "Riad Zagora Palms",
+          "prix": 100,
+          "image": "h3-15.jpeg"
+        },
+        {
+          "nom": "Hotel Reda Zagora",
+          "prix": 85,
+          "image": "h4-15.jpeg"
+        }
+      ],
+      "activites": [
+        {
+          "titre": "Randonnée à travers les palmeraies et les villages berbères",
+          "description": "Explorez la vallée du Drâa à pied, en découvrant ses palmeraies luxuriantes, ses kasbahs en pisé et en rencontrant les habitants des villages berbères pour une immersion culturelle authentique.",
+          "image": "a2-15.jpeg"
+        }
+      ]
+    }
+  ]  
+  }
+]
